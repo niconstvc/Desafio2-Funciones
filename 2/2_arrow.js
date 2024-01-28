@@ -1,5 +1,6 @@
-suma = (a, b)=>{
-    return a + b
-    }
+suma = function (a, b) {
+    return a + b;
+};
 
-console.log(suma(a,b))
+// Arrow function
+suma = (a,b) => {return (a + b)}
